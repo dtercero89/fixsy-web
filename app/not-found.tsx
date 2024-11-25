@@ -17,7 +17,7 @@ export default function NotFound() {
         </div>
         
         <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-          Sorry, the page you are looking for couldn't be found. It might have been moved or doesn't exist.
+          Sorry, the page you are looking for could not be found. It might have been moved or does not exist.
         </p>
         
         <div className="flex justify-center">

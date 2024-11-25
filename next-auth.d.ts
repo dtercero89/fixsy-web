@@ -15,8 +15,8 @@ declare module "next-auth" {
       userId?:number;
       userCode?:string;
       creationDate:string;
+      customerId?:number;
       isCustomer:boolean;
-      customerId:number;
     } & DefaultSession["user"]
   }
 
@@ -29,8 +29,8 @@ declare module "next-auth" {
     phoneNumber: string
     permissions: string[]
     creationDate: string
+    customerId?:number
     isCustomer:boolean
-    customerId:number
   }
 }
 
@@ -45,7 +45,7 @@ declare module "next-auth/jwt" {
     phoneNumber: string
     permissions: string[]
     creationDate: string
-    customerId:number
+    customerId?:number
     isCustomer:boolean
   }
 }
