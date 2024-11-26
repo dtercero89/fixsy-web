@@ -65,6 +65,9 @@ NEXTAUTH_SECRET="YOUR-AUTH-SECRET-KEY-654321"
 NEXTAUTH_URL="http://localhost:3100"
 
 ```
+### 5. Services
+See instructions in the follow link to setup backend project.
+<br/>**[Fixsy Services Repository](https://github.com/dtercero89/fixsy-services.git)**
 
 ## ⚙️ Technologies Used
 
