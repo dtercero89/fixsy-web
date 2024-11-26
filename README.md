@@ -1,6 +1,6 @@
 # 
 <div style="text-align: center;">
-<img src="http://localhost:3100/_next/image?url=%2Fimages%2Ffixsy.png&w=2048&q=75" alt="Fixsy Logo" width="300" height="auto"/>
+<img src="[http://localhost:3100/_next/image?url=%2Fimages%2Ffixsy.png&w=2048&q=75](https://github.com/dtercero89/fixsy-web/blob/main/public/images/fixsy.png?raw=true)" alt="Fixsy Logo" width="300" height="auto"/>
 </div>
 Connects users in need of plumbing, carpentry, remodeling, and other services with local providers.
 
