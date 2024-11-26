@@ -1,7 +1,7 @@
 {
     "name": "Fixsy",
     "short_name": "Fixsy",
-    "description": "Plataforma para conectar a usuarios con proveedores de servicios locales",
+    "description": "Platform to connect users with local service providers",
     "start_url": "/",
     "display": "standalone",
     "theme_color": "#ffffff",

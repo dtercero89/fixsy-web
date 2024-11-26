@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: '%s | Fixsy',
     default: 'Fixsy',
   },
-  description: 'Plataforma para conectar usuarios con proveedores de servicios locales',
+  description: 'Platform to connect users with local service providers',
   manifest: '/manifest.json',
   icons: [
     { rel: 'apple-touch-icon', url: '/icon-192x192.png' },
