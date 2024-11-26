@@ -16,14 +16,11 @@ export default async function Page({
   const pageLocal = page ? parseInt(page) : 1
   const pageSizeLocal = pageSize ? parseInt(pageSize) : 10
 
-  const currentPage = page ?? 1;
-  const currentPageSize = pageSize ?? 1;
-
   var jobsSummary = await fetchServer.httpGet(`/jobs/summary`, { });
 
   const request = {
-    page : currentPage,
-    pageSize :currentPageSize,
+    page : pageLocal,
+    pageSize :pageSizeLocal,
     customerId:0
   }
 
