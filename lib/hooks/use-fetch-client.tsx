@@ -8,7 +8,7 @@ import { useCurrentUser } from './use-current-user'
 
 const getUrl = () => {
 
-  const baseAddress =  process.env.NEXT_PUBLIC_CDMP_WEB_API_ENDPOINT;
+  const baseAddress =  process.env.NEXT_PUBLIC_WEB_API_ENDPOINT;
    return baseAddress ? baseAddress : "http://localhost:8855";
 
 }
